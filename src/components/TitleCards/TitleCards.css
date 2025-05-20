@@ -4,7 +4,7 @@
 }
 
 .title-cards h2 {
-    margin-bottom: flex;
+    margin-bottom: 8px;
 }
 
 .card-list {
@@ -15,7 +15,7 @@
 
 .card-list::-webkit-scrollbar {
     display: none;
-    display: none;
+    /* display: none; */
 }
 
 .card-list img {
@@ -24,8 +24,8 @@
     cursor: pointer;
 } 
 
-.card-list .cards {
-    position: absolute;
+.card-list .card {
+    position: relative;
 }
 
 .card-list .card p {
